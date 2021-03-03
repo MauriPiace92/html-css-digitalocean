@@ -15,17 +15,20 @@ img{
 
 
 /* HEADER */
+header img{
+    margin-top: 10px ;
+}
 .burger{
     text-align: right;
     color:#2485fd;
-    margin-top:3px;
-    font-size: 15px;
+    margin:15px;
+    font-size: 22px;
 }
 
 .menu-right{
     text-align: right;
     list-style-type:none;
-    line-height: 35px;
+    line-height: 45px;
 }
 
 .menu-right li{
@@ -49,7 +52,7 @@ img{
 }
 
 #header_button:hover{
-    background-color:#0a2253;
+    background-color:#2485fd;
     color: white;
     margin: 0;
 }
