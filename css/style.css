@@ -1,0 +1,52 @@
+/* COMMON */
+body{
+    color:#0a2253;
+}
+img{
+    width: 100%;
+}
+
+
+
+
+
+/* HEADER */
+.burger{
+    text-align: right;
+    color:#2485fd;
+    margin-top:3px;
+    font-size: 15px;
+}
+
+.menu-right{
+    text-align: right;
+    list-style-type:none;
+    line-height: 35px;
+}
+
+.menu-right li{
+    display: inline-block;
+    margin: 10px 4px;
+}
+
+.menu-right a{
+    color: #0a2253;
+    font-size:12px;
+
+}
+
+#header_button{
+    border:1px solid #2485fd;
+    color:#2485fd;
+}
+
+.menu-right:hover{
+    color:#2485fd;
+}
+
+#header_button:hover{
+    background-color:#0a2253;
+    color: white;
+    margin: 0;
+}
+
