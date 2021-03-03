@@ -5,6 +5,10 @@ body{
 img{
     width: 100%;
 }
+.jumbotron h1{
+    font-size: 50px;
+    font-weight: 700;
+}
 
 
 
@@ -49,4 +53,57 @@ img{
     color: white;
     margin: 0;
 }
+/* end HEADER */
 
+/*  MAIN */
+.jumbotron{
+    background-image: url("../img/ms-jumbo.jpg");
+    color:white;
+}
+
+.white-part{
+    background-color: white;
+    border-radius:5px;
+    color:#0a2253 ;
+    text-align: center;
+    padding:20px;
+
+}
+.white-part h2{
+    font-weight: 700;
+}
+
+.white-part span {
+    color:#2485fd;
+}
+
+.white-part input{
+    margin-bottom:5px;
+}
+
+.white-part button{
+    background-color:#2485fd ;
+    color: white;
+    margin-bottom:5px;
+}
+#google-btn{
+    background-color: white;
+    color:#b2b2b2;
+    text-align: center;
+    position:relative;
+
+}
+.box-google{
+    width:20px;
+    position:absolute;
+    left:5px;
+    top:5px;
+}
+
+#little-p{
+    font-size: xx-small;
+}
+
+#little-p a{
+    text-decoration:underline;
+}
