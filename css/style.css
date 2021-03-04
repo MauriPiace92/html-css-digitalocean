@@ -1,6 +1,7 @@
 /* COMMON */
 body{
     color:#0a2253;
+    min-width: 320px;
 }
 img{
     width: 100%;
@@ -9,9 +10,14 @@ img{
     font-size: 50px;
     font-weight: 700;
 }
-
-
-
+h2{
+    margin: 40px;
+    font-weight: bold;
+}
+p{
+    font-size: 20px;
+    font-weight: lighter;
+}
 
 
 /* HEADER */
@@ -39,6 +45,7 @@ header img{
 .menu-right a{
     color: #0a2253;
     font-size:12px;
+    font-weight: bold;
 
 }
 
@@ -62,6 +69,7 @@ header img{
 .jumbotron{
     background-image: url("../img/ms-jumbo.jpg");
     color:white;
+    margin-bottom:0 ;
 }
 
 .white-part{
@@ -109,4 +117,53 @@ header img{
 
 #little-p a{
     text-decoration:underline;
+}
+
+/* section bg-grey images */
+.bg-grey{
+    text-align: center;
+    background-color: #f3f5f9;
+}
+
+.bg-grey h3{
+    font-size: 14px;
+    font-weight: bold;
+    color: grey;
+    margin-top: 30px;
+}
+
+.images{
+    list-style-type:none;
+}
+
+.images li{
+    display:inline-block;
+    width: calc( ( 100% / 6) - 5px );
+    margin: 5px 10px;
+    vertical-align: middle;
+}
+@media all and (max-width:768px){
+    .images li{
+        width: calc( ( 100% / 3) - 5px );
+    }
+
+}
+
+
+.bg-grey a{
+    color:#2485fd;
+
+}
+
+/* section deploy */
+
+.deploy{
+    list-style-type:none;
+    text-align: left;
+    margin-top: 50px;
+    border-left: 1px solid;
+}
+
+.deploy{
+    
 }
