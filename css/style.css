@@ -151,19 +151,50 @@ header img{
 
 
 .bg-grey a{
-    color:#2485fd;
-
+    display: block;
+    color: #2485fd;
+    margin: 18px;
 }
 
 /* section deploy */
+.bg-white p{
+    margin-bottom: 50px;
 
-.deploy{
-    list-style-type:none;
+}
+
+.box-list{
     text-align: left;
-    margin-top: 50px;
-    border-left: 1px solid;
 }
 
 .deploy{
-    
+    list-style-type:none;
+    margin-left: 100px;
+    padding: 10px;
+    border-left: 1px solid;
+}
+
+.deploy li{
+    margin: 15px 0;
+}
+
+.deploy a{
+    color:#0a2253;
+    font-size: 15px;
+}
+.box-items{
+    text-align:left;
+}
+
+.box-img{
+    width: 40px;
+}
+.box-items h5{
+    font-weight: bold;
+    font-size: 17px;
+
+}
+
+.box-items p{
+    font-size: 13px;
+    color:#bbbbbb ;
 }
