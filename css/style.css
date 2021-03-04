@@ -172,6 +172,11 @@ header img{
     padding: 10px;
     border-left: 1px solid;
 }
+@media all and (max-width:767px){
+    .deploy{
+        text-align: left;
+    }
+}
 
 .deploy li{
     margin: 15px 0;
@@ -197,4 +202,32 @@ header img{
 .box-items p{
     font-size: 13px;
     color:#bbbbbb ;
+}
+
+/* section upper-slider */
+.wrapper-slider{
+    width: 70%;
+    margin: auto;
+    padding:40px 0;
+}
+.slider-img{
+    text-align: center;
+}
+
+.wrapper-slider i{
+    font-size: 40px;
+    color:#0a2253;
+    margin-top:150px ;
+}
+
+.wrapper-slider .little-p{
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.box-items a{
+    color:#2485fd;
+    font-size: 15px;
+    font-weight: bold;
 }
